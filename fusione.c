@@ -19,7 +19,7 @@ void fusione(char *s, char *t, char *z) {
 int main(int argc, char *argv[]) {
     if (argc < 3) {
         printf("Usage: %s <string1> <string2>\n", argv[0]);
-        return 1; // Restituisce un codice di errore
+        return 1;
     }
 
     char *a = argv[1];
