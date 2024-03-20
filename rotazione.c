@@ -23,7 +23,7 @@ int rotazione( char  *s, char *z,int r){
 	        ps++;
 			pz++;
 			if(*pz=='\0'){//quando pz[] arriva alla fine del terminatore 
-				pz=z;//assegnamo la prima posizione di do z a pz,cosi dopo può fare un controllo di pz[0]="ao" con ps[2]="ao" e dopo uscivo dal ciclo poichè while(*ps) era arrivato alla fine del terminatore
+				pz=z;//assegnamo la prima posizione di  z a pz,cosi dopo può fare un controllo di pz[0]="ao" con ps[2]="ao" e dopo esce dal ciclo poichè while(*ps) era arrivato alla fine del terminatore
 			}
 	}else return 0;
 	}		
