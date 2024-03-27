@@ -6,8 +6,11 @@ Il programma dovrà usare una funzione
 int strend(char *s, char *t)che prese in
 input le stringhe s e t, ritorni 1 se t occorre alla fine di s, 0
 altrimenti.*/
-
 int strend(char *s,char *t){
+	
+	if(*s=='\0' || *t=='\0'){
+        return 0;
+	}
 	char *ps=s;
 	char *pt=t;
 	while(*ps){
