@@ -93,7 +93,7 @@ int main(int argc,char *argv[]){
 	int Result=estrazione(a,b,c);
 	printf("Il tuo valore di ritorno e' %d\n",Result);
 	if(Result==1){	
-	printf("L'estrazione e' %s \n",c);
+		printf("L'estrazione e' %s \n",c);
 	}else if(Result==0){
 		return 0;
 	}
