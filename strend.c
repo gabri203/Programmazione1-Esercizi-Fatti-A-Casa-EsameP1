@@ -25,7 +25,7 @@ int strend(char *s,char *t){
 	--ps;
 	--pt;
 	
-	while(*t){
+	while(*pt){
 		if(*pt==*ps){
 			pt++;
 			ps++;
